@@ -9,7 +9,7 @@ export default function App() {
       <View className="flex-1  bg-white">
         <StatusBar style="auto" />
         <SignedIn>
-          <Text className="mt-20">You are Signed in</Text>
+          <Text className="mt-10">You are Signed in</Text>
         </SignedIn>
         <SignedOut>
           <LoginScreen />
